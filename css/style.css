@@ -45,7 +45,7 @@ li.active{
 }
 section{ 
     padding: 50px;
-        color: #46356e;
+        
 }
 .shadow{
    
@@ -67,14 +67,12 @@ section{
     width: 400px;
     height: 400px;
     margin-right: 140px;
-   
-    color: black;
-   
-    
 }
 img{
     margin: auto;
 }
-
+h1{
+    color: #46356e;
+}
 
 
