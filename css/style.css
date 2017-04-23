@@ -5,15 +5,13 @@ color: white;
 
 }
 .first{
-    background-color:#5D4796;
+    background-color:rgba(15, 22, 138, 0.85); */;
     padding: 10px;
     text-transform: capitalize;
     font-size: 30px;
     padding-top: 30px;
     padding-bottom: 30px; 
     padding-left: 90px; 
-    
- 
 }
 .second{
     float: right;
@@ -30,7 +28,7 @@ color: white;
 }
 .second ul li{
     display: inline;
-    padding-right: 10px;
+    padding: 0 10px;
     text-transform: capitalize;
     float: left;
 }
