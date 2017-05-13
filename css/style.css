@@ -32,6 +32,8 @@ h1 {
     cursor: pointer;
 }
 
+.container {}
+
 button.navbar-toggle {
     margin-right: 0px;
 }
@@ -47,7 +49,9 @@ button.navbar-toggle {
 }
 
 .hero .row {
-    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 50px;
 }
 
 .hero-text {
@@ -56,7 +60,7 @@ button.navbar-toggle {
 }
 
 .body-sec {
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .col-left {
@@ -202,9 +206,13 @@ button.navbar-toggle {
     margin-top: 20px;
 }
 
+#about #myCarousel .carousel-inner {
+    max-height: 260px;
+}
+
 footer{
     width: 100%;
-    background: #333;
+    background: white;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -212,7 +220,7 @@ footer{
     padding: 15px;
     font-size: 10px;
     text-align: right;
-    color: white;
+    color: black;
 }
 
 footer p {
