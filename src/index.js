@@ -1,4 +1,5 @@
-import '../images/hero.jpg';
 
-
-<div>fsdfadsfsdf</div>
+function first() {
+    document.getElementById('root');
+    
+}
