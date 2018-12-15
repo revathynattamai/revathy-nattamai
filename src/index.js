@@ -1,5 +1,4 @@
 
-function first() {
-    document.getElementById('root');
-    
+function root() {
+    let div = document.getElementById('root');
 }
