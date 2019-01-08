@@ -1,35 +1,47 @@
 .container {
-    margin:auto;
-    max-width: 800px;
+    width: auto;
+    margin: auto;
+    max-width: 1080px;
 }
-ul {
-    list-style-type: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.navbar {
+    padding: 10px;
+    margin-bottom: 20px;
 }
-li {
-    float: right;
-    padding: 5px;
-    font-size: 15px;
-    color: black;
-}
-#nav {
+ h1 {
+  font-size: 34px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.0263158em;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+.animate-fade
+{animation:fading 5s infinite}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+#footer {
+    background-color: black;
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
 }
 
-h1 {
-  font-family: 'Google Sans',Roboto,sans-serif;
-  position: absolute;
-  display:inline;
-  padding-top:34px;
-  font-size: 25px;
-  padding-left: 11px;
-  color: #3c0030;
-    text-shadow: 4px 3px 5px #008080;
+#footer:hover {
+    background-color:rgb(79, 91, 109);
 }
- 
-img {
-  height: 160px;
-  border-radius: 50px;
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Lato;
 }
-.animate-fade
-{animation:fading 3s infinite}
-@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+a:hover {
+    color: black;
+}
